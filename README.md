@@ -1,3 +1,2 @@
 # google-sprint
-Google Software Sprint -- Summer 2022
-Gaelle's portfolio and SPS projects
+Gaelle's Google Software Sprint Projects -- Summer 2022
