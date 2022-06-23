@@ -7,3 +7,81 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+body{
+    margin: 0;
+}
+.navBar{
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 30px;
+    background-color: #F8F8F8; 
+  }
+  .logo{
+    top: 10px;
+    width: 100px;
+    height: 20px;
+    position:absolute;
+    margin-right: 40px;
+    margin-left: 10px;
+  }
+  .navBar ul{
+    margin:20px;
+    padding:0;
+  }
+  .navBar li{
+    margin-right: 1em;
+    
+    display: inline-block;
+    color:brown;
+  }
+  .navBar li:hover{
+    color: #F69270;
+  }
+  /**top section**/
+  .sectionTop{
+    left: 0px;
+    height: 350px;
+    width: 100vw;
+    background: linear-gradient(#F0BB8C,#F3D2C4); 
+  }
+  /**back section**/
+  .container{
+    background-color:#F7F7F7; 
+  }
+  /**bottom section**/
+  .sectionBottom{
+    bottom: 200px;
+    width: 100vw;
+    background-color:linear-gradient(#F0BB8C,#F3D2C4); 
+  }
+  #bot-intro {
+    visibility: hidden;
+    display: none;
+  }
+  /**
+      margin-right: 40px;
+      margin-left: 40px;
+  }
+  .button {
+      display: inline-block;
+      height: 60px;
+      padding: 10px 30px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(34, 34, 34, 0.1);
+      background-color: transparent;
+      -webkit-transition: background-color 200ms ease, color 200ms ease;
+      transition: background-color 200ms ease, color 200ms ease;
+      font-family: Poppins, sans-serif;
+      color: #222;
+      font-size: 13px;
+      line-height: 41px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;

@@ -15,6 +15,14 @@
 /**
  * Adds a random greeting to the page.
  */
+
+let $ = selector => document.querySelector(selector);
+let $$ = selector => document.querySelectorAll(selector);
+
+const btn = document.getElementById(`button`);
+const bot_intro = document.getElementById(`bot-intro`);
+
+
 function addRandomGreeting() {
   const greetings =
       ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
@@ -26,3 +34,11 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+    
+btn.addEventListener("click", function() {
+
+bot_intro.style.display = 'block';
+bot_intro.style.visibility = 'visible';
+
+});
